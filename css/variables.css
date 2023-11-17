@@ -2,8 +2,13 @@
     /* FONT COLORS */
     --color-white: #ffff;
     --color-black: #0000;
+    --color-primary: #323232;
+    --color-primary-hover:#252525;
     /* BACKGROUNDS COLOR */
     --bg-white: #fff;
     --bg-black: #000;
+    --bg-primary: #323232;
+    --bg-primary-hover:#252525;
+
 
 }

@@ -6,6 +6,14 @@ body{
     background-color: var(--bg-black);
     color: var(--color-white);
 }
+.btn-primary{
+    color: var(--color-white) !important;
+    border: 1px solid var(--bg-primary) !important;
+    background-color: var(--bg-primary) !important;
+}
+.btn-primary:hover{
+    background-color: var(--bg-primary-hover) !important;
+}
 header{
     padding: 0 50px;
 }
@@ -13,7 +21,8 @@ header{
     justify-content: flex-end;
 }
 header nav .navbar-brand{ 
-    color: var(--color-white);
+    color: var(--color-primary);
+    font-weight: 900;
 }
 header nav ul li a.nav-link {
     color: var(--color-white);
@@ -33,4 +42,26 @@ header nav ul li a.nav-link:hover {
     width: 100%;
     height: 100vh;
     background-color: aqua;
+}
+#home{
+    margin-top: -57px;
+    height: calc(100vh + 57px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.squarespace-cdn.com/content/v1/5feb6d2cab06677bba637eba/1678905323964-FSN7YA7WOQFDF57T7IQ2/LAM+images+%284%29.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+#home .home-title{
+    font-weight: 900;
+}
+#home .home-subtitle{
+    font-weight: 100;
+    & b{
+        font-weight: 600;
+    }
 }
