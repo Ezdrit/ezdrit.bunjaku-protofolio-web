@@ -103,3 +103,47 @@ header nav ul li a.nav-link:hover {
 #about p {
     color: var(--color-gray);
 }
+#works{
+    background-color: var(--bg-primary);
+    padding-top:50px;
+    padding-bottom: 50px;
+    height: 100% !important;
+}
+#works .row{
+    row-gap: 20px;
+}
+#works h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#works .card{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#works .card:hover .card-icon{
+    background-color: var(--bg-primary-hover);
+    border-radius: 25% 50%;
+
+}
+#works .card .card-icon{
+    background-color: var(--bg-primary);
+    color: var(--color-white);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all 500ms;
+}
+#works .card h5{
+    font-weight: 900;
+}
+#works .card p{
+    text-align: center;
+}
