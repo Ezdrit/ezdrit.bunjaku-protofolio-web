@@ -22,6 +22,10 @@ body {
 header {
   padding: 0 50px;
 }
+header img {
+  width: 40px;
+  height: 40px;
+}
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -39,6 +43,12 @@ header nav ul li a.nav-link:hover {
   color: var(--color-white);
   border-bottom: 1px solid var(--color-white);
 }
+#works,
+#contact {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
 /* Nga ketu fillon main ose Projectet e mia ne carda */
 #works {
   padding-top: 50px;
@@ -50,13 +60,19 @@ header nav ul li a.nav-link:hover {
   padding: 10px 20px;
 }
 #works .card img {
+  margin: 10px 10px;
+  padding: 10px 10px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  max-width: 400px;
+  max-width: 380px;
   height: 200px;
+  transition: all 500ms;
 }
-#works .card h3{
+#works .card:hover img{
+  transform: scale(1.5);
+}
+#works .card h3 {
   font-weight: bolder;
   font-size: xx-small;
 }
@@ -86,7 +102,7 @@ header nav ul li a.nav-link:hover {
   color: var(--color-white);
 }
 footer {
-  background-color: var( --bg-primary);
+  background-color: var(--bg-primary);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -95,4 +111,3 @@ footer {
 footer p {
   margin: 0;
 }
-
