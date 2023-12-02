@@ -1,15 +1,15 @@
-:root{
+:root {
     /* FONT COLORS */
     --color-white: #ffff;
-    --color-black: #0000;
+    --color-black: #000000;
     --color-primary: #323232;
-    --color-primary-hover:#252525;
-    --color-gray:#748182;
+    --color-primary-hover: #252525;
+    --color-gray: #748182;
     /* BACKGROUNDS COLOR */
-    --bg-white: #fff;
-    --bg-black: #000;
-    --bg-primary: #323232;
-    --bg-primary-hover:#252525;
-    --bg-gray:#748182;
-
-}
+    --bg-white: #bdb8b875;
+    --bg-black: #050505;
+    --bg-primary: #32adb6c7;
+    --bg-primary-hover: rgb(59, 163, 163);
+    --bg-gray: #6fbbb15d;
+  }
+  

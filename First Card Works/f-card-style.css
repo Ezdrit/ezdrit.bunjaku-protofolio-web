@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: var(--color-white);
+  background: url(../img/wallpaper2you_322883.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.btn-primary {
+  color: var(--color-white) !important;
+  border: 1px solid var(--bg-primary) !important;
+  background-color: var(--bg-primary) !important;
+}
+.btn-primary:hover {
+  background-color: var(--bg-primary-hover) !important;
+  color: var(--color-black) !important;
+}
+header {
+  padding: 0 50px;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+header nav .navbar-brand {
+  color: var(--color-primary);
+  font-weight: 900;
+}
+header nav ul li a.nav-link {
+  color: var(--color-white);
+}
+header nav .navbar-brand:hover {
+  color: var(--color-white);
+}
+header nav ul li a.nav-link:hover {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+/* Nga ketu fillon main ose Projectet e mia ne carda */
+#works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100% !important;
+}
+#works .row {
+  row-gap: 10px;
+  padding: 10px 20px;
+}
+#works .card img {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 400px;
+  height: 200px;
+}
+#works .card h3{
+  font-weight: bolder;
+  font-size: xx-small;
+}
+#works .name-proj p {
+  font-size: small;
+}
+#contact {
+  background-color: var(--bg-white);
+  color: var(--color-black);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100% !important;
+}
+#contact h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--color-white);
+}
+#contact .contact-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+}
+#contact .from-group .form-label,
+#contact .contact-info {
+  color: var(--color-white);
+}
+footer {
+  background-color: var( --bg-primary);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  margin: 0;
+}
+

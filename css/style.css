@@ -4,6 +4,11 @@
 }
 body {
   color: var(--color-white);
+  background: url(../img/wallpaper2you_322883.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .btn-primary {
   color: var(--color-white) !important;
@@ -12,6 +17,7 @@ body {
 }
 .btn-primary:hover {
   background-color: var(--bg-primary-hover) !important;
+  color: var(--color-black) !important;
 }
 header {
   padding: 0 50px;
@@ -49,11 +55,6 @@ header nav ul li a.nav-link:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(https://images.squarespace-cdn.com/content/v1/5feb6d2cab06677bba637eba/1678905323964-FSN7YA7WOQFDF57T7IQ2/LAM+images+%284%29.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 #home .home-title {
   font-weight: 900;
@@ -66,7 +67,7 @@ header nav ul li a.nav-link:hover {
 }
 #about {
   background-color: var(--bg-white);
-  color: var(--bg-black);
+  color: var(--color-black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,8 +85,10 @@ header nav ul li a.nav-link:hover {
   transition: all 500ms;
 }
 #about .about-img:hover {
+  background-color: var(--bg-white);
   transform: scale(0.9);
   border-radius: 50%;
+  opacity: 0.85;
 }
 #about .about-img img {
   max-height: 400px;
@@ -94,59 +97,57 @@ header nav ul li a.nav-link:hover {
 #about .about-img:hover img {
   transform: scale(1.5);
 }
-#about h3 {
+#about h3 h6 {
   font-weight: 900;
   margin-bottom: 0;
 }
-#about .sub-title,
+
 #about p {
-  color: var(--color-gray);
+  color: var(--color-black);
+  font-weight: 100;
 }
 #works {
-  background-color: var(--bg-primary);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-light);
   height: 100% !important;
 }
 #works .row {
-  row-gap: 20px;
+  row-gap: 15px;
 }
 #works h3 {
   text-align: center;
   margin-bottom: 50px;
 }
 #works .card {
-  padding: 30px 20px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
-
-#works .card:hover .card-icon {
-  background-color: var(--bg-primary-hover);
-  border-radius: 25% 50%;
-}
-#works .card .card-icon {
-  background-color: var(--bg-primary);
-  color: var(--color-white);
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
+  opacity: 0.5;
   transition: all 500ms;
 }
-#works .card h5 {
-  font-weight: 900;
+#works .card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.9;
 }
-#works .card p {
-  text-align: center;
+#works .card img {
+  max-width: 100%;
+  max-height: 100%;
 }
+#works h3 {
+  display: flex;
+  justify-content: start;
+  opacity: 0.7;
+}
+
 #contact {
   background-color: var(--bg-white);
+  color: var(--color-black);
   padding-top: 50px;
   padding-bottom: 50px;
   height: 100% !important;
@@ -154,24 +155,25 @@ header nav ul li a.nav-link:hover {
 #contact h3 {
   text-align: center;
   margin-bottom: 50px;
-  color: var(--bg-primary);
+  color: var(--color-white);
 }
 #contact .contact-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
 }
 #contact .from-group .form-label,
 #contact .contact-info {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
-footer{
-    background-color: var(--bg-primary);
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer {
+  background-color: var( --bg-primary);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-footer p{
-    margin: 0;
+footer p {
+  margin: 0;
 }
