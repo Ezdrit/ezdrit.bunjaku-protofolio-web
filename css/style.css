@@ -131,13 +131,11 @@ header nav ul li a.nav-link:hover {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  opacity: 0.5;
   transition: all 500ms;
 }
 #works .card:hover {
   cursor: pointer;
   transform: scale(1.1);
-  opacity: 0.9;
 }
 #works .card img {
   max-width: 100%;
