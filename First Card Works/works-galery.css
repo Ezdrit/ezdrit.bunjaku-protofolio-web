@@ -59,6 +59,10 @@ header nav ul li a.nav-link:hover {
   row-gap: 10px;
   padding: 10px 20px;
 }
+#works h3{
+  text-align: center;
+  margin-bottom: 50px;
+}
 #works .card{
   max-width: 380px;
   max-height: 250px;
@@ -80,7 +84,7 @@ header nav ul li a.nav-link:hover {
   transform: scale(1.1);
 }
 #works .card img {
-  max-width: 380px;
+  max-width: 350px;
   height: 200px;
 }
 #works .card h3 {
@@ -108,9 +112,18 @@ header nav ul li a.nav-link:hover {
   justify-content: center;
   font-weight: 500;
 }
-#contact .from-group .form-label,
-#contact .contact-info {
+#contact .from-group .form-label{
   color: var(--color-white);
+}
+#contact .from-group input {
+  background-color: var(--bg-white);
+}
+#contact .from-group textarea {
+  background-color:var(--bg-white);
+}
+#contact .contact-info{
+  color: var(--color-white);
+  padding-left: 250px;
 }
 footer {
   background-color: var(--bg-primary);

@@ -120,8 +120,8 @@ header nav ul li a.nav-link:hover {
 #works .row {
   row-gap: 15px;
 }
-#works h3 {
-  text-align: center;
+#works h4{
+  margin-left: 43%;
   margin-bottom: 50px;
 }
 #works .card {
@@ -165,9 +165,18 @@ header nav ul li a.nav-link:hover {
   justify-content: center;
   font-weight: 500;
 }
-#contact .from-group .form-label,
-#contact .contact-info {
+#contact .from-group .form-label{
   color: var(--color-white);
+}
+#contact .from-group input {
+  background-color: var(--bg-white);
+}
+#contact .from-group textarea {
+  background-color:var(--bg-white);
+}
+#contact .contact-info{
+  color: var(--color-white);
+  padding-left: 250px;
 }
 footer {
   background-color: var( --bg-primary);
