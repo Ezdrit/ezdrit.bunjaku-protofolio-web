@@ -12,8 +12,8 @@ body {
 }
 .btn-primary {
   color: var(--color-white) !important;
-  border: 1px solid var( --bg-wellprimary-1) !important;
-  background-color: var( --bg-wellprimary-1) !important;
+  border: 1px solid var(--bg-wellprimary-1) !important;
+  background-color: var(--bg-wellprimary-1) !important;
 }
 .btn-primary:hover {
   background-color: var(--bg-wellprimary-2) !important;
@@ -61,11 +61,11 @@ header nav ul li a.nav-link:hover {
   row-gap: 10px;
   padding: 10px 20px;
 }
-#works h3{
+#works h3 {
   text-align: center;
   margin-bottom: 50px;
 }
-#works .card{
+#works .card {
   max-width: 380px;
   max-height: 250px;
   border: 2px solid white;
@@ -116,60 +116,60 @@ header nav ul li a.nav-link:hover {
   gap: 25px;
   font-weight: 500;
 }
-#contact  .icons{
+#contact .icons {
   border-radius: 50%;
-  width:50px;
+  width: 50px;
   height: 50px;
   background-color: var(--bg-wellprimary-4);
 }
-#contact .from-group .form-label{
+#contact .from-group .form-label {
   color: var(--color-white);
 }
 #contact .from-group input {
   background-color: var(--bg-wellprimary-4);
 }
 #contact .from-group textarea {
-  background-color:var(--bg-wellprimary-4);
+  background-color: var(--bg-wellprimary-4);
 }
-#contact .contact-info{
+#contact .contact-info {
   color: var(--color-white);
 }
-footer{
+footer {
   height: auto;
   padding-top: 40px;
   width: 100vw;
 }
-footer .footer-content{
+footer .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-footer .footer-content h3{
+footer .footer-content h3 {
   font-size: 2.1rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 3rem;
 }
-footer .footer-content p{
+footer .footer-content p {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
   color: var(--color-white);
 }
-footer .footer-content .socials{
+footer .footer-content .socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
 }
-footer .footer-content .socials li{
+footer .footer-content .socials li {
   margin: 0 10px;
 }
-footer .footer-content .socials li a{
+footer .footer-content .socials li a {
   text-decoration: none;
   color: var(--color-white);
   border: 1.1px solid white;
@@ -177,20 +177,20 @@ footer .footer-content .socials li a{
   border-radius: 50%;
   width: 35%;
 }
-footer .footer-content .socials li a:hover{
+footer .footer-content .socials li a:hover {
   color: var(--color-wellprimary-2);
 }
-footer .footer-content .footer-menu{
+footer .footer-content .footer-menu {
   margin-bottom: 20px;
 }
-footer .footer-content .footer-menu ul{
+footer .footer-content .footer-menu ul {
   display: flex;
 }
-footer .footer-content .footer-menu ul li{
+footer .footer-content .footer-menu ul li {
   padding-right: 10px;
   display: block;
 }
-footer .footer-content .footer-menu ul li a{
+footer .footer-content .footer-menu ul li a {
   font-weight: 700;
   color: var(--color-white);
   border: 1.3px solid white;
@@ -198,212 +198,204 @@ footer .footer-content .footer-menu ul li a{
   border-radius: 50px;
   text-decoration: none;
 }
-footer .footer-content .footer-menu ul li a:hover{
+footer .footer-content .footer-menu ul li a:hover {
   color: var(--color-wellprimary-2);
 }
-footer .footer-content .footer-bottom{
+footer .footer-content .footer-bottom {
   margin-top: 10px;
   width: 100vw;
   padding: 10px;
   text-align: center;
 }
-footer .footer-content .footer-bottom p{
+footer .footer-content .footer-bottom p {
   text-align: center;
   font-size: 16px;
   word-spacing: 2px;
   text-transform: capitalize;
 }
-footer .footer-content .footer-bottom p a{
+footer .footer-content .footer-bottom p a {
   color: var(--color-wellprimary-2);
   font-size: 20px;
   text-decoration: none;
 }
-@media screen and ( max-width:1051px){
- 
-    #works .container{
-      width: 70vh;
-    }
-    #works .card{
-      width: 250px;
-      height: 180px;
-    }
-    #works .card img{
-      max-width:150px;
-      height: 100px;
-    }
-    #contact .row{
-      justify-content: center;
-      margin: 20px 0px;
-      gap:50px;
-    }
-    #contact .contact-info {
-      width: 70vh;
-      font-size: 12px;
-    }
-    #contact .contact-group{
-      width: 100vh;
-      font-size: 16px;
-    }
-
+@media screen and (max-width: 1051px) {
+  #works .container {
+    width: 70vh;
   }
+  #works .card {
+    width: 250px;
+    height: 180px;
+  }
+  #works .card img {
+    max-width: 150px;
+    height: 100px;
+  }
+  #contact .row {
+    justify-content: center;
+    margin: 20px 0px;
+    gap: 50px;
+  }
+  #contact .contact-info {
+    width: 70vh;
+    font-size: 12px;
+  }
+  #contact .contact-group {
+    width: 100vh;
+    font-size: 16px;
+  }
+}
 
-@media screen and (max-width:890px ) {
-  #works .container{
+@media screen and (max-width: 890px) {
+  #works .container {
     width: 100vh;
     justify-content: center;
   }
-  #works .row{
-   
-  }
-  #works .card{
+  #works .card {
     width: 150px;
     height: 130px;
   }
-  #works .card img{
-    max-width:150px;
+  #works .card img {
+    max-width: 150px;
     height: 100px;
   }
-  #contact .row{
+  #contact .row {
     justify-content: center;
     margin: 20px 0px;
-    gap:50px;
+    gap: 50px;
   }
   #contact .contact-info {
     width: 70vh;
     font-size: 12px;
   }
-  #contact .contact-group{
+  #contact .contact-group {
     width: 100vh;
     font-size: 16px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-  #works .container{
+  #works .container {
     width: 100vh;
     justify-content: center;
   }
-  #works .row{
+  #works .row {
     margin-left: 50px;
   }
-  #works .card{
+  #works .card {
     width: 300px;
     height: 200px;
   }
-  #works .card img{
-    max-width:150px;
+  #works .card img {
+    max-width: 150px;
     height: 100px;
   }
-  #contact .row{
+  #contact .row {
     justify-content: center;
     margin: 20px 0px;
-    gap:50px;
+    gap: 50px;
   }
   #contact .contact-info {
     width: 70vh;
     font-size: 12px;
   }
-  #contact .contact-group{
+  #contact .contact-group {
     width: 100vh;
     font-size: 16px;
   }
 }
-@media screen and (max-width: 562px){
-  #works .container{
+@media screen and (max-width: 562px) {
+  #works .container {
     width: 100vh;
     justify-content: center;
   }
-  #works .row{
+  #works .row {
     margin-left: 5px;
   }
-  #works .card{
+  #works .card {
     width: 200px;
     height: 150px;
   }
- 
-  #works .card img{
-    max-width:150px;
+
+  #works .card img {
+    max-width: 150px;
     height: 100px;
   }
-  #contact .row{
+  #contact .row {
     justify-content: center;
   }
-  #contact .contact-group{
+  #contact .contact-group {
     display: inline;
   }
   #contact .contact-info {
     width: 20vh;
     font-size: 10px;
   }
-  #contact .contact-info .icons{
+  #contact .contact-info .icons {
     max-width: 50px;
     height: 45px;
   }
-  #contact .contact-group{
+  #contact .contact-group {
     width: 90vh;
     font-size: 16px;
   }
-  footer .footer-content .socials{
+  footer .footer-content .socials {
     display: inline;
   }
-  footer .footer-content .socials li{
+  footer .footer-content .socials li {
     margin-bottom: 20px;
   }
   footer .footer-content .footer-menu ul {
-    display:list-item;
+    display: list-item;
   }
-  footer .footer-content .footer-menu ul li{
+  footer .footer-content .footer-menu ul li {
     margin-bottom: 20px;
-}
-
+  }
 }
 @media screen and (max-width: 321px) {
-  #works .container{
+  #works .container {
     width: 80vh;
     justify-content: center;
   }
-  #works .row{
+  #works .row {
     margin-left: 5px;
   }
-  #works .card{
+  #works .card {
     width: 200px;
     height: 150px;
   }
- 
-  #works .card img{
-    max-width:150px;
+
+  #works .card img {
+    max-width: 150px;
     height: 100px;
   }
-    #contact .row{
-      justify-content: center;
-    }
-    #contact .contact-group{
-      display: inline;
-    }
-    #contact .contact-info {
-      width: 20vh;
-      font-size: 10px;
-    }
-    #contact .contact-info .icons{
-      max-width: 50px;
-      height: 45px;
-    }
-    #contact .contact-group{
-      width: 90vh;
-      font-size: 16px;
-    }
-    footer .footer-content .socials{
-      display: inline;
-    }
-    footer .footer-content .socials li{
-      margin-bottom: 20px;
-    }
-    footer .footer-content .footer-menu ul {
-      display:list-item;
-    }
-    footer .footer-content .footer-menu ul li{
-      margin-bottom: 20px;
+  #contact .row {
+    justify-content: center;
   }
-}  
-
+  #contact .contact-group {
+    display: inline;
+  }
+  #contact .contact-info {
+    width: 20vh;
+    font-size: 10px;
+  }
+  #contact .contact-info .icons {
+    max-width: 50px;
+    height: 45px;
+  }
+  #contact .contact-group {
+    width: 90vh;
+    font-size: 16px;
+  }
+  footer .footer-content .socials {
+    display: inline;
+  }
+  footer .footer-content .socials li {
+    margin-bottom: 20px;
+  }
+  footer .footer-content .footer-menu ul {
+    display: list-item;
+  }
+  footer .footer-content .footer-menu ul li {
+    margin-bottom: 20px;
+  }
+}
