@@ -59,19 +59,52 @@ header nav ul li a.nav-link:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 500ms;
 }
 #home .home-img img{
   max-width:80px;
   max-height:80px;
   border-radius: 100px;
   margin: 30px 5px;
+  animation: images 1s ease-in-out;
+}
+@keyframes images {
+  0% {
+    transform:  translateY(-500px) scale(8);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 #home .home-title {
   font-weight: 900;
+  animation: titles 1s ease-in-out;
+}
+@keyframes titles {
+  0% {
+    transform:  translateX(1100px) scale(4);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 #home .home-subtitle {
   font-weight: 100;
+  animation: subtitles 1s ease-in-out;
 }
+
+@keyframes subtitles {
+  0% {
+    transform:  translateX(-1100px) scale(3);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
 #home b {
   font-weight: 600;
 }
