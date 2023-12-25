@@ -71,23 +71,13 @@ header nav ul li a.nav-link:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 380px;
-  max-height: 200px;
+  width: 380px;
+  height: 200px;
   border: 2px solid white;
   box-shadow: 0px 1px 10px rgba(234, 236, 234, 0.719);
   transition: all 500ms;
-  animation: card 1s ease-in-out;
 }
 
-@keyframes card {
-  0%{
-    border-radius: 100px;
-    transform: translateX(1600px) rotate(10deg) scale(.1);
-  }
-  100%{
-    transform: translateX(0) rotate(360deg);
-  }
-}
 #works .card:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -251,7 +241,6 @@ footer .footer-content .footer-bottom p a {
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 890px) {
   #works .container {
     width: 100vh;
@@ -279,7 +268,6 @@ footer .footer-content .footer-bottom p a {
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 767px) {
   #works .container {
     width: 100vh;
@@ -319,7 +307,7 @@ footer .footer-content .footer-bottom p a {
     margin-left: 5px;
   }
   #works .card {
-    width: 200px;
+    width: 250px;
     height: 150px;
   }
 
@@ -358,7 +346,7 @@ footer .footer-content .footer-bottom p a {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 321px) {
+/* @media screen and (max-width: 321px) {
   #works .container {
     width: 80vh;
     justify-content: center;
@@ -405,4 +393,4 @@ footer .footer-content .footer-bottom p a {
   footer .footer-content .footer-menu ul li{
     margin-bottom: 20px;
 }
-}  
+}   */
