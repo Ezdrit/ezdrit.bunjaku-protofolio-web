@@ -83,7 +83,7 @@ header nav ul li a.nav-link:hover {
   transform: scale(1.1);
 }
 #works .card img {
-  max-width: 200px;
+  max-width: 250px;
   height: 200px;
 }
 #works .card h3 {
@@ -346,51 +346,3 @@ footer .footer-content .footer-bottom p a {
     margin-bottom: 20px;
   }
 }
-/* @media screen and (max-width: 321px) {
-  #works .container {
-    width: 80vh;
-    justify-content: center;
-  }
-  #works .row {
-    margin-left: 5px;
-  }
-  #works .card {
-    width: 200px;
-    height: 150px;
-  }
-
-  #works .card img {
-    max-width: 150px;
-    height: 100px;
-  }
-  #contact .row {
-    justify-content: center;
-  }
-  #contact .contact-group {
-    display: inline;
-  }
-  #contact .contact-info {
-    width: 20vh;
-    font-size: 10px;
-  }
-  #contact .contact-info .icons {
-    max-width: 50px;
-    height: 45px;
-  }
-  #contact .contact-group {
-    width: 90vh;
-    font-size: 16px;
-  }
-  footer .footer-content .socials{
-    display: inline;
-  }
-  footer .footer-content .socials li{
-    margin-bottom: 20px;
-  }
-  footer .footer-content .footer-menu ul {
-    display:list-item;
-  }
-  footer .footer-content .footer-menu ul li{
-    margin-bottom: 20px;
-}
-}   */
