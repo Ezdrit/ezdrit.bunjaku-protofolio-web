@@ -225,8 +225,9 @@ footer .footer-content .footer-bottom p a {
     height: 180px;
   }
   #works .card img {
-    max-width: 150px;
-    height: 100px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
   }
   #contact .row {
     justify-content: center;
@@ -252,8 +253,9 @@ footer .footer-content .footer-bottom p a {
     height: 130px;
   }
   #works .card img {
-    max-width: 150px;
-    height: 100px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
   }
   #contact .row {
     justify-content: center;
@@ -282,8 +284,9 @@ footer .footer-content .footer-bottom p a {
     height: 200px;
   }
   #works .card img {
-    max-width: 150px;
-    height: 100px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
   }
   #contact .row {
     justify-content: center;
@@ -313,8 +316,9 @@ footer .footer-content .footer-bottom p a {
   }
 
   #works .card img {
-    max-width: 150px;
-    height: 100px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
   }
   #contact .row {
     justify-content: center;
