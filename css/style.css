@@ -249,10 +249,10 @@ footer .footer-content h3{
   line-height: 3rem;
 }
 footer .footer-content p{
-  max-width: 500px;
-  margin: 10px auto;
+  max-width: 900px;
+  margin: 10px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 20px;
   color: var(--color-white);
 }
 footer .footer-content .socials{
@@ -301,10 +301,11 @@ footer .footer-content .footer-bottom{
   margin-top: 10px;
   width: 100vw;
   padding: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer-content .footer-bottom p{
-  text-align: center;
   font-size: 16px;
   word-spacing: 2px;
   text-transform: capitalize;
@@ -312,6 +313,7 @@ footer .footer-content .footer-bottom p{
 footer .footer-content .footer-bottom p a{
   color: var(--color-wellprimary-2);
   font-size: 20px;
+  text-align: center;
   text-decoration: none;
 }
 
